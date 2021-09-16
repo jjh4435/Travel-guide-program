@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:rgb(240, 236, 231);
+}
+body header {
+    width:100%;
+    height: 50px;
+    background-color: rgb(247, 239, 240);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0%;
+    padding-top: 30px;
+
+}
+body .center .A{
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 100px;
+    margin-left: 150px;
+    margin-right: 10px;
+    background: rgb(196, 89, 107);
+}
+body .center .B{
+    padding: 5px 10px;
+    font-size:15px;
+    border-radius: 100px;
+    margin-right: 10px;
+    background:rgb(196,89,107)
+}
+body .center .C{
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 100px;
+    background: rgb(196, 89, 107);
+}
+body .center .D {
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 100px;
+    background:rgb(196, 89, 107);
+    margin-left: 10px;
+}
+/* body .center .E {
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 100px;
+    background:rgb(196, 89, 107);
+    margin-left: 10px;
+} */
+body .center .F {
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 100px;
+    background:rgb(196, 89, 107);
+    margin-left: 10px;
+}
+body .center .G {
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 100px;
+    background:rgb(196, 89, 107);
+    margin-left: 200px;
+}
+body .center .H {
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 100px;
+    background:rgb(196, 89, 107);
+    margin-left: 10px;
+}
+
+
+body .cent {
+    color:pink;
+}
+body .best {
+    padding:  0 0 3px;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    margin-left: 10%;
+}
+/*container*/
+#idx_top {
+    width: 100%;
+    height: 400px;
+    background: url(./img/제목.png) no-repeat 50% 50% /cover;
+}
+
+body .best .sub{
+    color:#aaa;
+    font-size:13px;
+}
+.location {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    
+}
+
+/* 테이블 부분 */
+.tbl {
+   
+    width: 800px;
+    padding:5px;
+    margin: 0 auto;
+    font-style: italic;
+}
+.tbl caption {
+    display: none;
+}
+.tbl thead th {
+    width: 25%;
+}
+.tbl th,
+.tbl td {
+    padding: 20px;
+    /* border: 1px solid #999; */
+    background-color: rgb(235, 226, 227);
+}
+
+.tbl td {
+    text-align: center;
+}
+/* 테이블 부분 */
+body aside {
+    float: left;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+aside a:hover {
+   
+    color:rgb(176, 176, 216);
+    text-decoration: none;
+}
+aside .center {  
+    color:rgb(241, 169, 169);
+    margin-left: 190px;
+    padding-left:50px;
+    letter-spacing: 5px;   
+}
+ul, li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.list_wrap {
+    width: 1000px;
+    padding:50px;
+    margin: 0 auto;
+}
+.list_wrap .hot1 {
+    color: red;
+}
+.list_wrap .hot2 {
+    color:pink;
+}
+.list_wrap ul {
+    font-size: 0%;
+}
+.list_wrap img {
+width:100px;
+height:100px;
+padding: 0 0 1px;
+}
+.list_wrap .item {
+    display: inline-block;
+    width:30%;
+    margin-left: 5%;
+    margin-top: 40px;
+    box-shadow: 0px 0px 3px rgb(0,0,0,0.5);   /* x, y, 농도색, 컬러*/
+                                                /*rgb: 0,0,0,0.5(0 ~ 1 숫자 색 투명도)*/
+}
+.list_wrap .item:nth-child(-n+3) {              /*갯수만큼 숫자*/
+    margin-top: 0%;
+} 
+.list_wrap .item:nth-child(3n-2) {              /*1, 4, 7 해당*/
+    margin-left: 0%;
+}
+.list_wrap .item .image {
+    width: 100%;
+    height: 150px;
+    background-color: #ddd;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;                     /*cover로 사진 맞춤*/
+}
+
+.list_wrap .item1 .image { background-image: url(../img/도봉산.png); }
+.list_wrap .item2 .image { background-image: url(../img/청계천.png); }
+.list_wrap .item3 .image { background-image: url(../img/남산공원.png); }
+
+.list_wrap .item .content {
+    padding: 20px;
+}
+.list_wrap .item strong {                       /*strong 태그는 인라인 이라서 block*/
+    display: block;
+    margin: 0 0 10px 0;                         /*위 아래 좌 우*/
+    font-size: 16px;
+    letter-spacing: -1px;                       /*글자 사이 간격 조절*/
+}
+.list_wrap .item p {
+    font-size:13px;
+    letter-spacing: -1px;
+}
+.list_wrap .item a {
+    display: inline-block;
+    margin: 5px 10px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #eee;
+    font-size: 13px;
+    letter-spacing: -1px;
+    transition: all 1s ease;                    /*스무스한 효과 주기(대상, 주기, 방식)*/
+}
+.list_wrap .item a:hover {
+    background: #3a5383;                      /*마우스 올렸을때 배경색 및 글씨색*/
+    color:#fff;
+}
+footer .center{
+    text-align: center;
+    width: 100%;
+    height: 130px;
+    background: rgb(241, 239, 239);
+    letter-spacing: 2px;
+    font-size:12px;
+}
+
+/* 아래부터 소개 css */
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+
+.history_wrap {
+    width: 100%;
+    max-width: 1000px;
+    margin: 50px auto;  /* 위 아래 50px 좌 우 auto */
+    overflow-y: auto;
+}
+
+.history_wrap .item {
+    clear:both;  /* 위의 뜬 부분들 관여 금지! */
+    padding-top: 40px;
+}
+.history_wrap .item .cont,
+.history_wrap .item .image {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+ .history_wrap .item .cont {  /*내용 이므로 오른쪽으로 가라 */
+   float: right;
+   padding-left: 5%;
+}
+
+/* 짝수 순서 내용 */
+.history_wrap .item:nth-child(even) .cont {
+    float: left;
+    padding-left: 0%;
+}
+
+
+.history_wrap .item .cont strong {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 23px;
+    color:rgb(241 169 169);
+}
+
+.history_wrap .item .cont dl {
+    margin-top: 10px;
+    font-size: 0;
+}
+.history_wrap .item .cont dl:first-child {
+    margin-top:0;
+}
+
+.history_wrap .item .cont dt,
+.history_wrap .item .cont dd {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.history_wrap .item .cont dt { 
+    width: 30%;
+    vertical-align: top; /*글씨 옆 제목 고정 */
+    font-size:600;
+    color:#999;
+}
+
+.history_wrap .item .cont dd {
+    width: 70%;
+    letter-spacing: 2px;
+    word-break: keep-all;
+}
+
+.history_wrap .item .image {
+    float: left;
+    padding-right: 5%;
+}
+
+ /* 짝수 순서 이미지 */
+.history_wrap .item:nth-child(even) .image {
+    float: right;
+    padding-left: 5%;
+    padding-right: 0%;
+    
+}
+
+.history_wrap .item .image img {
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+/* footer css 부분 */
+
+footer .center{
+    text-align: center;
+    width: 100%;
+    height: 130px;
+    background: rgb(241, 239, 239);
+    letter-spacing: 2px;
+    font-size:12px;
+}
+.header_menu {
+	background-color: rgb(247, 239, 240);
+}
+
+ul li {list-style-type: none; float: left; margin-left: 20px;}
+
+.A {
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 100px;
+    color:rgb(241, 169, 169);
+    background: rgb(196, 89, 107);
+    text-decoration: none;
+    letter-spacing: 5px; 
+}
+.B {
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 100px;
+    color:rgb(241, 169, 169);
+    background: rgb(196, 89, 107);
+    text-decoration: none;
+    letter-spacing: 5px; 
+}
+.C {
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 100px;
+    color:rgb(241, 169, 169);
+    background: rgb(196, 89, 107);
+    text-decoration: none;
+    letter-spacing: 5px; 
+}
+.D {
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 100px;
+    color:rgb(241, 169, 169);
+    background: rgb(196, 89, 107);
+    text-decoration: none;
+    letter-spacing: 5px; 
+}
+.E {
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 100px;
+    color:rgb(241, 169, 169);
+    background: rgb(196, 89, 107);
+    text-decoration: none;
+    letter-spacing: 5px; 
+}
+.F {
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 100px;
+    color:rgb(241, 169, 169);
+    background: rgb(196, 89, 107);
+    text-decoration: none;
+    letter-spacing: 5px; 
+}
+.G {
+	float: right;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 100px;
+    color:rgb(241, 169, 169);
+    background: rgb(196, 89, 107);
+    text-decoration: none;
+    letter-spacing: 5px;
+    margin-left: 20px
+}
+.H {
+	float: right;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 100px;
+    color:rgb(241, 169, 169);
+    background: rgb(196, 89, 107);
+    text-decoration: none;
+    letter-spacing: 5px;
+    margin-left: 20px
+}
+ a:hover {
+   
+    color:rgb(176, 176, 216);
+    text-decoration: none;
+}
+ 

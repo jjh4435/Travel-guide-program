@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:rgb(240, 236, 231);
+}
+/* body header {
+    width:100%;
+    height: 50px;
+    background-color: rgb(247, 239, 240);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0%;
+    padding-top: 30px; */
+
+}
+body .center .A{
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 100px;
+    margin-left: 150px;
+    margin-right: 10px;
+    background: rgb(196, 89, 107);
+}
+body .center .B{
+    padding: 5px 10px;
+    font-size:15px;
+    border-radius: 100px;
+    margin-right: 10px;
+    background:rgb(196,89,107)
+}
+body .center .C{
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 100px;
+    background: rgb(196, 89, 107);
+}
+body .center .D {
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 100px;
+    background:rgb(196, 89, 107);
+    margin-left: 10px;
+}
+body .center .E {
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 100px;
+    background:rgb(196, 89, 107);
+    margin-left: 10px;
+}
+body .center .F {
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 100px;
+    background:rgb(196, 89, 107);
+    margin-left: 10px;
+}
+body .center .G {
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 100px;
+    background:rgb(196, 89, 107);
+    margin-left: 200px;
+}
+body .center .H {
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 100px;
+    background:rgb(196, 89, 107);
+    margin-left: 10px;
+}
+
+
+body .cent {
+    color:pink;
+}
+body .best {
+    padding:  0 0 3px;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    margin-left: 10%;
+}
+container
+#idx_top {
+    width: 100%;
+    height: 400px;
+    background: url(image/daegu/daegu_main.png) no-repeat 50% 50% /cover;
+}
+
+body .best .sub{
+    color:#aaa;
+    font-size:13px;
+}
+.location {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    
+}
+body aside {
+    float: left;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+aside a:hover {
+   
+    color:rgb(176, 176, 216);
+    text-decoration: none;
+}
+aside .center {  
+    color:rgb(241, 169, 169);
+    margin-left: 190px;
+    padding-left:50px;
+    letter-spacing: 5px;   
+}
+ul, li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer .center{
+	
+    text-align: center;
+    bottom:0px;
+    width: 100%;
+    height: 150px;
+    background: rgb(241, 239, 239);
+    letter-spacing: 2px;
+    font-size:12px;
+}
+
+ 
+ div.main_image {
+ width:100%;
+ height:300px;
+ }크기
+
+ div.main_image img{
+ width:100%;
+ height:100%;
+ }
+ div.label{
+text-align:center;
+ }
+ 
+ img.nav{
+ position:absolute;
+ left:750px;
+ top: 180px;
+ }
+ 
+ div.subimage img{
+ 
+ width:48%;
+ }
+form.se{
+ 	position:absolute;
+ 	left: 280px;
+ 	top:120px;
+ 
+ }
+ form.finder{
+ 
+	padding-left:290px;
+}
+
+div.left_area{
+	padding-left:290px;
+	box-sizing:border-box;
+	width:700px;
+} 
+
+
+ 
+ 

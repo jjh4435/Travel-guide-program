@@ -1,0 +1,32 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+.history_wrap {
+
+}
+
+.history_wrap .item {
+
+}
+
+ .history_wrap .item .cont {  /*내용 이므로 오른쪽으로 가라 */
+    float: right;
+  
+}
+
+.history_wrap .item .dt {
+
+}
+
+.history_wrap .item .dd {
+
+}
+
+.history_wrap .item .image {
+    float: left;
+}
+.history_wrap .item .image img {
+    width:200px;
+}

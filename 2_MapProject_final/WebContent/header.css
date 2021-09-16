@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:rgb(240, 236, 231);
+}
+
+header{
+    background-color: rgb(247, 239, 240);	
+}
+
+header .center {  
+    color:rgb(241, 169, 169);
+    letter-spacing: 5px;
+}
+
+header h1 {
+	color:rgb(000, 000, 000);
+	float: left;
+    width:100%;
+}
+
+header .center a{
+	text-decoration: none;
+	width: 100%;
+	color:pink;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 100px;
+    background: rgb(196, 89, 107);
+}
+
+
+.center a:hover {
+   
+    color:rgb(176, 176, 216);
+    text-decoration: none;
+}
